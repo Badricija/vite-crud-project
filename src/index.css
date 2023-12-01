@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: flex-start;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Pacifico', cursive;
+  background-color: darkslategrey;
+}
+.App {
+  border: 8px solid rgb(69, 114, 114);
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgb(69, 114, 114);
+}
+.list-header {
+  font-size: 70px;
+}
+
+.Add {
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  color:rgb(109, 108, 108);
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.todoList {
+  border: 1px whitesmoke;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  font-size: 20px;
+}
+.placeholder {
+  padding: 5px;
+  border-radius: 10px;
+}
+button {
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  color:rgb(109, 108, 108);
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+  
+}
+.content {
+  padding-bottom: 5px;
+}
