@@ -16,6 +16,13 @@
       {
         "label": "off"
       }
+    ],
+    "typescript-config/is-valid": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
     ]
   },
   "browserslist": [

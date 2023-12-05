@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "taskName": "cleen the dishes",
+      "taskDescription": "sthere are some dirty dishes",
+      "isComplete": false,
+      "id": "1701767041316",
+      "description": ""
+    },
+    {
+      "taskName": "Nomazgāt traukus",
+      "taskDescription": "tur vēl ir daži trauki",
+      "isComplete": false,
+      "id": "1701767098288",
+      "description": ""
+    },
+    {
+      "taskName": "Izmazgāt netīro veļu",
+      "taskDescription": "salocīt izžuvušo",
+      "isComplete": false,
+      "id": "1701767136542",
+      "description": ""
+    },
+    {
+      "taskName": "Sagatavot mašīnu uz pārdošanu",
+      "taskDescription": "Vajag sākt slīpēt",
+      "isComplete": false,
+      "id": "1701767209278",
+      "description": ""
+    },
+    {
+      "taskName": "Noslīpēt vēl vienu mašīnu",
+      "taskDescription": "špaktelis un gatavot krāsot",
+      "isComplete": false,
+      "id": "1701767250429",
+      "description": ""
+    },
+    {
+      "taskName": "Sagatavot vakariņas",
+      "taskDescription": "Atrast kaut ko ledusskapī",
+      "isComplete": false,
+      "id": "1701767345250",
+      "description": ""
+    }
+  ]
+}

@@ -10,47 +10,66 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: 'Pacifico', cursive;
-  background-color: darkslategrey;
+  background-color: rgb(29, 25, 21);
+  color: rgb(78, 61, 38);
 }
 .App {
-  border: 8px solid rgb(69, 114, 114);
+  border: 8px solid rgb(78, 61, 38);
   border-radius: 15px;
   padding: 10px;
-  background-color: rgb(69, 114, 114);
+  background-color: rgb(78, 61, 38);
 }
 .list-header {
   font-size: 70px;
 }
 
-.Add {
-  font-family: 'Pacifico', cursive;
-  font-size: 18px;
-  color:rgb(109, 108, 108);
-  border-radius: 10px;
-  cursor: pointer;
-  margin: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+.headline-task {
+  font-size: 70px;
+  text-align: center;
 }
-.todoList {
-  border: 1px whitesmoke;
-  border-radius: 10px;
-  background-color: whitesmoke;
+.task-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin: 15px;
+  gap: 1rem;
+  padding-bottom: 4rem;
+}
+.task {
+  border: 5px solid #6b6b6b;
+  border-radius: 15px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  color: burlywood;
+}
+.task-heading {
+  text-transform: capitalize;
+  font-size: 40px;
+}
+.task-button, .js-add-picture {
+  border: 1px rgb(203, 169, 123);
+  border-radius: 2px;
   font-size: 20px;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  background-color: burlywood;
 }
-.placeholder {
-  padding: 5px;
-  border-radius: 10px;
+ form {
+  font-family: 'Montserrat', sans-serif;
 }
-button {
-  font-family: 'Pacifico', cursive;
-  font-size: 18px;
-  color:rgb(109, 108, 108);
-  border-radius: 10px;
-  cursor: pointer;
-  margin: 5px;
-  
+.task--form {
+  padding: 20px;
+
 }
-.content {
-  padding-bottom: 5px;
+.placeholder-task {
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+.real-cool {
+  border: 6px rgb(203, 169, 123);
+  border-radius: 2px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: burlywood;
+  padding: 10px 20px;
 }
